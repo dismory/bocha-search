@@ -1,0 +1,13 @@
+{
+  "id": "bocha-search",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "apiKey": { "type": "string" }
+    }
+  },
+  "uiHints": {
+    "apiKey": { "label": "Bocha API Key", "sensitive": true }
+  }
+}

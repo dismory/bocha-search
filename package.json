@@ -1,0 +1,8 @@
+{
+  "name": "bocha-search",
+  "version": "1.0.0",
+  "main": "index.js",
+  "openclaw": {
+    "extensions": ["./index.js"]
+  }
+}
