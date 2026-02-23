@@ -2,6 +2,16 @@
 
 OpenClaw plugin that adds a `bocha_web_search` tool powered by the [Bocha Search API](https://bochaai.com).
 
+## Why not the built-in web_search?
+
+OpenClaw's built-in `web_search` uses Brave Search with a hardcoded API endpoint — no way to set a custom base URL or swap the backend. This is a problem if:
+
+- Brave Search is inaccessible from your network (e.g. China mainland)
+- You want to use a different search provider
+- You need features Brave doesn't offer (AI summaries, date range filtering, etc.)
+
+This plugin replaces it with Bocha Search, which provides good Chinese-language results and built-in AI summaries.
+
 ## Setup
 
 1. Place this folder under `~/.openclaw/extensions/bocha-search/`
